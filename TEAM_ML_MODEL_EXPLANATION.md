@@ -17,6 +17,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 ```
 
 **What it does:**
+
 - Imports necessary libraries for data manipulation (pandas), visualization (matplotlib), and machine learning (scikit-learn)
 - Loads the 2022-23 NBA season team metrics from CSV: `NBA Stats 202223 Team Metrics Away-Home-Last 5 Splits.csv`
 
