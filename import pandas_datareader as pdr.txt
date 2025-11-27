@@ -1,0 +1,12 @@
+import pandas_datareader as pdr
+
+# Define the stock symbol and the date range
+symbol = 'TSLA'
+start_date = '2021-01-01'
+end_date = '2021-01-31'
+
+# Use pandas_datareader to get the data from Google Finance
+df = pdr.get_data_google(symbol, start=start_date, end=end_date)
+
+# Save the data as a CSV file
+df.to_csv('TSLA_last_month.csv', index=False)
